@@ -144,6 +144,6 @@ print "Mode", mode(getidvalues)
 print "Median", median(getidvalues)
 print "Most responded dyno", mode(dynos5)
 print "  "
-print "Made by Vilkka Sarantila 0927074669"
+print "Made by Vilkka"
 
 
