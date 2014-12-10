@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import re
-
+#testing git testing
 
 file = open('sample.log','r')
 FILE = file.readlines()
@@ -94,7 +94,7 @@ for line in FILE:
 		dynos5.append(int(line.partition("dyno=web.")[2].partition(" ")[0]))
 
 print "  "
-print "STATISTICS FOR ALL"
+print "STATISTICS"
 print "  "
 
 print "count_pending_messages"
@@ -144,6 +144,6 @@ print "Mode", mode(getidvalues)
 print "Median", median(getidvalues)
 print "Most responded dyno", mode(dynos5)
 print "  "
-
+print "Made by Vilkka Sarantila 0927074669"
 
 
